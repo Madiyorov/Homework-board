@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 16px;
+    height: 16px;
+    background: #1d1515;
+    box-shadow: 0 0 2px #531313;
+    margin: 2px;
+    transition: 1s;
+}
+
+.box:hover{
+    transition-duration: 0s;
+}
